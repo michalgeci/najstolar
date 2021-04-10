@@ -1,9 +1,14 @@
 const Reducer = (state, action) => {
     switch (action.type) {
-      case 'SET_STATUS_BAR_COLOR':
+      case 'SET_CURRENT_STEP':
         return {
           ...state,
-          statusBarColor: action.payload,
+          currentStep: action.payload,
+        };
+      case 'SET_PRODUCT_TYPE':
+        return {
+          ...state,
+          productType: action.payload,
         };
       default:
         return state;

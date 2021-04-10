@@ -1,2 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,700,900&subset=latin-ext');
 @import '~antd/dist/antd.css';
+
+@media (max-width: 575px) {                  
+    .hide-on-xs {
+       display: none;
+    }
+ }
+
+ @media (min-width: 576px) {
+    .show-on-xs {
+        display: none;
+     }
+ }

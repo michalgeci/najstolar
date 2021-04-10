@@ -2,7 +2,8 @@ import React, { createContext, useReducer } from 'react';
 import Reducer from './Reducer';
 
 const initialState = {
-  statusBarColor: '#e3cccc',
+  currentStep: 0,
+  productType: 0,
 };
 
 const Store = ({ children }) => {
