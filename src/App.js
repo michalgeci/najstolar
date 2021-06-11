@@ -48,7 +48,7 @@ const MainApplication = () => {
             onClose={() => { setDrawerVisible(false) }}
             visible={drawerVisible}
           >
-            <StepsProgress />
+            <StepsProgress forceVisible={true} />
           </Drawer>
 
           <div style={{display: 'flex', height: '100%'}}>
