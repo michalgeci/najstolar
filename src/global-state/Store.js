@@ -3,7 +3,8 @@ import Reducer from './Reducer';
 
 const initialState = {
   currentStep: 0,
-  productType: 0,
+  productType: null,
+  stepsDescription: {0: ''},
 };
 
 const Store = ({ children }) => {

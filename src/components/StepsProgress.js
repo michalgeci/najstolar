@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Steps } from 'antd';
 import { Context } from '../global-state/Store';
+import { steps } from '../steps/stepNames';
 
 /**
  * 
@@ -10,24 +11,21 @@ import { Context } from '../global-state/Store';
  * @returns 
  */
 export default function StepsProgress(props) {
-  const [state, dispatch] = useContext(Context)
+  const [state, ] = useContext(Context)
 
   return (
-    <div style ={{backgroundColor: 'white', borderRight: props.keepDelimiter ? '1px solid gray' : ''}}>
+    <div className='hide-on-xs' style ={{minWidth: '20%', backgroundColor: 'white', overflow: 'scroll', borderRight: props.keepDelimiter ? '1px solid gray' : ''}}>
     <Steps
       className={props.className}
       current={state.currentStep}
-      onChange={(step) => {
-        console.log(step)
-        dispatch({ type: 'SET_CURRENT_STEP', payload: step });
-      }}
       style={{ padding: 10, backgroundColor: 'white', width: 'auto' }}
       direction='vertical'
     >
-      <Steps.Step title='Krok1' />
-      <Steps.Step title='Krok1' />
-      <Steps.Step title='Krok1' />
-      <Steps.Step title='Krok1' />
+      {
+        steps[state.productType].map((titleString, index) => {
+          return(<Steps.Step style={{whiteSpace: 'pre-line'}} key={index} title={titleString} description={state.stepsDescription[index]} />)
+        })
+      }
     </Steps>
     </div>
   )
