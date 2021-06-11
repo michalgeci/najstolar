@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/najstolar/static/css/main.598990dc.chunk.css",
+    "main.js": "/najstolar/static/js/main.65fe1229.chunk.js",
+    "main.js.map": "/najstolar/static/js/main.65fe1229.chunk.js.map",
+    "runtime-main.js": "/najstolar/static/js/runtime-main.4eff259c.js",
+    "runtime-main.js.map": "/najstolar/static/js/runtime-main.4eff259c.js.map",
+    "static/css/2.de2ac02e.chunk.css": "/najstolar/static/css/2.de2ac02e.chunk.css",
+    "static/js/2.6fd4d3c9.chunk.js": "/najstolar/static/js/2.6fd4d3c9.chunk.js",
+    "static/js/2.6fd4d3c9.chunk.js.map": "/najstolar/static/js/2.6fd4d3c9.chunk.js.map",
+    "static/js/3.00c486c5.chunk.js": "/najstolar/static/js/3.00c486c5.chunk.js",
+    "static/js/3.00c486c5.chunk.js.map": "/najstolar/static/js/3.00c486c5.chunk.js.map",
+    "index.html": "/najstolar/index.html",
+    "static/css/2.de2ac02e.chunk.css.map": "/najstolar/static/css/2.de2ac02e.chunk.css.map",
+    "static/css/main.598990dc.chunk.css.map": "/najstolar/static/css/main.598990dc.chunk.css.map",
+    "static/js/2.6fd4d3c9.chunk.js.LICENSE.txt": "/najstolar/static/js/2.6fd4d3c9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/najstolar/static/media/Roboto-Regular.03523cf5.ttf",
+    "static/media/type1.1258f036.png": "/najstolar/static/media/type1.1258f036.png",
+    "static/media/type2.1258f036.png": "/najstolar/static/media/type2.1258f036.png",
+    "static/media/type3.1258f036.png": "/najstolar/static/media/type3.1258f036.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4eff259c.js",
+    "static/css/2.de2ac02e.chunk.css",
+    "static/js/2.6fd4d3c9.chunk.js",
+    "static/css/main.598990dc.chunk.css",
+    "static/js/main.65fe1229.chunk.js"
+  ]
+}
